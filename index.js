@@ -1,8 +1,8 @@
 // Code your solutions in this file
-const results = [];
+
 function writeCards(name,event){
   for(let i=0; i < name.length; i++){
-  
+  const results = ['Lisa', 'Kaitlin', 'Jan'];
      results.push=( `Thank you, ${name[i]}, for the wonderful ${event} gift!`) ;
   }
   return results;
