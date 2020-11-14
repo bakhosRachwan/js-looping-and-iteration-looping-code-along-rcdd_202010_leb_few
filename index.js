@@ -1,11 +1,11 @@
 // Code your solutions in this file
-let s=0;
 function writeCards(name,event){
+  const results = [];
   for(let i=0; i < name.length; i++){
   
-     s=( `Thank you, ${name[i]}, for the wonderful ${event} gift!`) ;
+     results.push=( `Thank you, ${name[i]}, for the wonderful ${event} gift!`) ;
   }
-  return s;
+  return return;
 }
 
 
