@@ -2,9 +2,9 @@
 function writeCards(name,event){
   for(let i=0; i < name.length; i++){
   
-    let x = ( `Thank you, ${name[i]}, for the wonderful ${event} gift!`) ;
+     ( `Thank you, ${name[i]}, for the wonderful ${event} gift!`) ;
   }
-  return x;
+  return 
 }
 
 
